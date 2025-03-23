@@ -1,0 +1,14 @@
+Running TFLint on ./backend...
+1 issue(s) found:
+
+backend/main.tf:2:1: Warning - terraform "required_version" attribute is required (terraform_required_version)
+Running TFLint on ./modules/s3_bucket...
+2 issue(s) found:
+
+modules/s3_bucket/main.tf:52:1: Warning - Missing version constraint for provider "aws" in `required_providers` (terraform_required_providers)
+modules/s3_bucket/main.tf:1:1: Warning - terraform "required_version" attribute is required (terraform_required_version)
+Running TFLint on ./s3_buckets...
+1 issue(s) found:
+
+s3_buckets/providers.tf:1:1: Warning - terraform "required_version" attribute is required (terraform_required_version)
+Running TFLint on ./s3_buckets/environments...
