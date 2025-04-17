@@ -1,4 +1,4 @@
-# DevOps Interview Task - Solution
+# Solution
 
 ## **Used Tools**
 
